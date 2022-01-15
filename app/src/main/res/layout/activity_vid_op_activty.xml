@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#9370db"
+        android:text="Videos"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_alignTop="@+id/label"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Video_1"
+        android:textColor="@color/colorWhite"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startbtn2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/label"
+        android:layout_marginTop="206dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Video_2"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/simpleImageView"
+        android:layout_marginTop="306dp"
+        android:layout_width="400dp"
+        android:layout_height="305dp"
+        android:src="@drawable/v_icon" />
+</RelativeLayout>
+

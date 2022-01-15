@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#9370db"
+        android:text="Courses"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_bca"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/rounded_corners"
+            android:text="BCA"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_bba"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/label"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:text="BBA"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_mca"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:text="MCA"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_bcom"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:text="B.COM"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_bmc"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:background="@drawable/rounded_corners"
+            android:text="BMC"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_mba"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/label"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:text="MBA"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/simpleImageView"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:src="@drawable/f" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+

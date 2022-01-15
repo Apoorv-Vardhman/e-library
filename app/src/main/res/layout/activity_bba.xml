@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#9370db"
+        android:text="BBA"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_alignTop="@+id/label"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Marketing Management"
+        android:textColor="@color/colorWhite"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startbtn2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/label"
+        android:layout_marginTop="206dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Accounts Management"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startbtn3"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_alignTop="@+id/label"
+        android:layout_marginTop="314dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Economics"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startbtn4"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_alignTop="@+id/label"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Enterpreneurship"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startbtn5"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_alignTop="@+id/label"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Corporate Finance"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startbtn6"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/label"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/rounded_corners"
+        android:text="HR Management"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
+
+
+
+

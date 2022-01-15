@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PujaApp</string>
+    <string name="search_elements">string</string>
+    <string name="source1">string</string>
+    <string name="source">Source</string>
+    <string name="courses">Courses</string>
+    <string name="content">content</string>
+    <string name="Content">Content</string>
+    <string name="Subject">Subject</string>
+    <string name="trendi">Trending Books</string>
+    <string name="Trending_Books">Trending</string>
+    <string name="dummy_text">Get the latest trending books on E-library</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+    <string name="notes">Notes</string>
+    <string name="don_t_have_an_account_signup">Do not have an account? Signup</string>
+    <string name="video">Video</string>
+</resources>
